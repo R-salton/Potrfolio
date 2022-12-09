@@ -1,0 +1,433 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--light-dark-blue);
+}
+
+
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+
+    --drak-blue: #12232E;
+    --blue-color: #007CC7;
+    --light-blue: #4DA8DA;
+    --light-dark-blue: #203647;
+    --white: #EEFBFB;
+    --text-color-light: hsl(207, 4%, 56%);
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.section-heading {
+    color: #fff;
+    /* font-size: 3rem; */
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+
+}
+
+/* Navigation bar */
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Title section */
+
+.big-heading {
+
+
+    font-weight: 100;
+    color: #fff;
+}
+
+#title {
+    position: relative;
+    background-color: var(--drak-blue);
+    padding: 3% 15%;
+
+}
+
+.row .top-row h1,
+p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.row p {
+    color: #fff;
+
+
+}
+
+.row {
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+/* Image me*/
+
+.image-pic {
+    position: absolute;
+    bottom: 1%;
+}
+
+.top-row {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+
+#about {
+
+    padding: 0% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+
+
+
+
+/* About Section */
+
+
+
+.row .designer {
+    background-image: url("/images/designer.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: .8rem;
+    height: 12rem;
+}
+
+.row .designer2 {
+    background-image: url("/images/develop.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: .8rem;
+    height: 12rem;
+}
+
+.about-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--drak-blue);
+    letter-spacing: .1rem;
+
+
+}
+
+.about-items {
+
+    text-align: left;
+    padding: 8% 0%;
+}
+
+.about-text {
+    margin-top: 1rem;
+}
+
+.about-text p {
+    margin-top: 1rem;
+    color: var(--drak-blue);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+
+
+}
+
+.row2 .about-text {
+    text-align: left;
+}
+
+
+
+.icon:hover {
+    color: var(--light-dark-blue)
+}
+
+/* Services Section */
+
+#services,
+#press {
+
+    background-color: #CBD4DF;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+
+}
+
+.services-text {
+    padding: 0;
+
+}
+
+.ux {
+    color: #0D2C2E;
+    font-family: 'Poppins';
+}
+
+.services-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #0D2C2E;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding-left: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+.row3 {
+    margin: 0% 15%;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+
+
+}
+
+.skills img {
+    width: 23%;
+    height: 6.2rem;
+}
+
+.skills-content {
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.row4 {
+    margin: 0% 15%;
+}
+
+.row4 h4 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+#skills h1 {
+
+    font-size: 1.5rem;
+    padding-top: 4%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+
+
+
+
+/* =============== Contact Section ================ */
+#contact {
+    background-color: #0D2C2E;
+    padding: 0% 15%;
+}
+
+.send-me,
+.send-me h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-top: 3rem;
+}
+
+.send-me h2 {}
+
+.form {
+    padding: 5% 10%;
+}
+
+.form input {
+    margin-bottom: 3rem;
+    background-color: #fff;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 4px
+}
+
+.form h5 {
+    color: #CBD4DF;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 1rem;
+
+}
+
+.text-area {
+    width: 50%;
+    background-color: #0D2C2E;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    height: 8rem;
+    color: #fff;
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+
+
+
+/* ============================ Footer Section ================================ */
+
+.h3-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+
+}
+
+#footer {
+    background-color: #0D2C2E;
+    text-align: left;
+
+    padding: 3% 21%;
+}
+
+
+#footer a {
+    color: #CBD4DF;
+    padding: 5% 2%;
+
+}
+
+
+
+#footer p {
+    margin-top: 7%;
+    font-size: 1rem;
+}
+
+@media (max-width: 1028px) {
+
+    #about,
+    #skills,
+    #contact {
+        padding: 0% 3%;
+
+
+    }
+
+    .image-me {
+
+        width: 100%;
+        margin-top: 1%;
+
+
+    }
+
+    .row .designer {
+        height: 15rem;
+    }
+
+    .image-me img {
+
+        width: 100%;
+
+    }
+
+    #title {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .top-row {
+        width: 100%;
+    }
+
+    .image-pic {
+        width: 50%;
+        position: relative;
+        display: flex;
+
+        flex-direction: column;
+
+
+    }
+
+    .row {
+        font-size: 2rem;
+        margin: 0;
+
+    }
+
+    .row .about-text {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .row2 .about-text {
+        margin-top: 12%;
+    }
+
+    .row2 .about-text h3,
+    p {
+        text-align: center;
+    }
+
+
+    body {
+        font-size: 2rem;
+    }
+
+
+}
